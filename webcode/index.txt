@@ -1,0 +1,281 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>website</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="style.css" rel="stylesheet">
+      </head>
+      <body>
+        <!--navigation-->
+         <nav class="navbar navbar-expand-md navbar-light bg-info sticky-top">
+           <div class="container-fluid">
+             <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo" style="width:125px "></a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+              <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                 <li class="nav-item active"> 
+                   <a class="nav-link" href="#">Home</a>
+                 </li>
+                 <li class="nav-item "> 
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item "> 
+                  <a class="nav-link" href="#">Coding</a>
+                </li>
+                <li class="nav-item "> 
+                  <a class="nav-link" href="#">Zen Classes</a>
+                </li>
+                <li class="nav-item "> 
+                  <a class="nav-link" href="#">About</a>
+                </li>
+               </ul>
+             </div>
+           </div>
+         </nav>
+         <!--Img slider-->
+         <div class="carousel slide" id="slides" data-ride="carousel">
+         
+         <ul class="carousel-indicators">
+           <li data-target="#slides" data-slide-to="0" class="active"></li>
+           <li data-target="#slides" data-slide-to="1"></li>
+           <li data-target="#slides" data-slide-to="2"></li>
+         </ul>
+         <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img1.jpg" width="1400" height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2">Learn to code</h1>
+              <h3>Limited Access</h3>
+              <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+              <button type="button" class="btn btn-outline-light btn-lg">JOIN</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img2.jpg" width="1400" height="600">
+          </div>
+          <div class="carousel-item">
+            <img src="img3.png" width="1400" height="500">
+          </div>
+        </div>
+        </div>
+        <!--Jumbotron-->
+        <div class="container-fluid padding">
+          <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 coll-xl-10">
+              <h1>Build your Skill profile</h1>
+              <p>Build your personal brand by building your skill profile. Its a great way to tell recruiters who you are and what skills you have .</p>          
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 coll-xl-2">
+              <a href="#" ><button type="button" class="btn btn-outline-secondary btn-lg">More info</button></a>
+            </div>
+          </div>
+        </div>
+        <!--welcom section-->
+        <div class="container-fluid padding">
+          <div class="row welcome text-center">
+            <div class="col-12">
+              <h1 class="display-4">Welcome To GUVI</h1>
+            </div>
+            <hr class="my-4">
+            <div class="col-12">
+              <p class="lead">Welcome to GUVI. GUVI (Grab Your Vernacular Imprint) Geek Network Private Limited is an Online Learning Platform incubated by IITM and IIM-A, supported by Google Launchpad & Jio Gennext .</p>
+            </div>
+          </div>
+        </div>
+  <!-- LANGUAGE section-->
+   <div class="container-fluid padding">
+     <div class="row text-center padding">
+       <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fab fa-html5"></i>
+         <h3>HTML5</h3>
+         <p>Learn the leatest version of HTML,HTML5</p>
+       </div>
+       <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fab fa-node-js"></i>
+        <h3>
+          Node-js
+        </h3>
+        <p>Learn node-js and start coding and build websites</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fab fa-aws"></i>
+        <h3>AWS</h3>
+        <p>Get the most out of AWS cloud. Pick a Learning path and get started</p>
+      </div>
+     </div>
+     <hr class="my-4">
+   </div>
+   <!--two column section-->
+   <div class="container-fluid padding">
+     <div class="row padding">
+       <div class="col-lg-6">
+         <h2>What is Full stack development ?</h2>
+         <p>As the name suggests, Full Stack Development is a rapidly growing domain 
+           for developers who wish to upskill by expanding their Portfolio into front-end 
+           development, backend development & Database management. With companies focusing more on productivity in the post-Covid era, the shift from individual testers, front end & backend developers, database administrators to a one responsible individual with all the skill sets needed - Full Stack Developer.</p>
+        <p>Have more questions on how you can become a Full Stack Developer and get placed in one of the top companies? Read the FAQs below and get your doubts clarified or Sign up & Talk to our experts.</p>
+           <br>
+         <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+          <div class="col-lg-6">
+            <img src="full.jpg" width="1000" height="500" class="img-fluid">
+          </div>
+     </div>
+   </div>
+   <hr class="my-4">
+   <!--fixed bg-->
+   <figure>
+     <div class="fixed-wrap">
+       <div id="fixed">
+
+       </div>
+     </div>
+   </figure>
+   <!--hidden emoji-->
+   <button class="fun" data-toggle="collapse"  data-target="#emoji">click for fun emojis</button>
+  <div id="emoji" class="collapse">
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-3">
+          <img class="gif" src="emoji1.jpg">
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img class="gif" src="emoji2.jpg">
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img class="gif" src="emoji3.jpg">
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img class="gif" src="emoji4.jpg">
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!--meet our team-->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 class="display-8">GUVI Founders</h1>
+      </div>
+      <hr>
+    </div>
+  </div> 
+<!--card section-->
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top"  src="team1.jpg">
+        <div class="card-body">
+          <h4 class="card-title">Arun Prakash</h4>
+          <p class="card-text">Founder & CTO</p>
+          <a href="#" class="btn btn-dark">see profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="team2.jpg">
+        <div class="card-body">
+          <h4 class="card-title">Sri Devi</h4>
+          <p class="card-text">Co - Founder & COO</p>
+          <a href="#" class="btn  btn-dark">see profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="team3.jpg">
+        <div class="card-body">
+          <h4 class="card-title">Bala Murugan</h4>
+          <p class="card-text">Co - Founder & CEO</p>
+          <a href="#" class="btn  btn-dark">see profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="my-4"
+<!--two column sec-->
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-lg-6">
+      <h2>OUR STORY!!</h2>
+      <p>GUVI started as an unique community who were passionate to learn and share technical knowledge in our very own mother tongue.
+         We try to connect with everyone in their preferred language. We makes technical learning a simple exercise with a Friendly Instructor Next Door kind of knowledge sharing.
+        GUVI is a complete platform where people can share their learning through videos</p>
+    <p>We helps students from rural background/novice/beginners who are struck with the complexity
+       of language of delivery and the hitches in getting started with new technology zone.
+       GUVI is a Blended Learning platform where there are no limits to what you can learn and no limits to what you can share
+       We provides a social platform to share your skills and learning’s.</p>
+        <br>
+       </div>
+       <div class="col-lg-6">
+         <img src="guvi.png" width="1000" height="500" class="img-fluid">
+       </div>
+  </div>
+</div>
+<hr class="my-4">
+<!--connect-->
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-12">
+      <h2>Connect</h2>
+    </div>
+    <div class="col-12 social padding">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>PLATFORM</h5>
+        <hr class="light">
+        <p>Course library</p>
+        <p>Codekata</p>
+        <p>MicroArc</p>
+        <p>Project board</p>
+      </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>COMPANY</h5>
+        <hr class="light">
+        <p> About us</p>
+        <p> Contact us</p>
+        <p>Terms and Conditions</p>
+      </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>Address</h5>
+        <hr class="light">
+        
+        <p>IITM Research park - phase 2</p>
+        <p>module #9, Kanagam Rd, </p>
+        <p>Tamil Nadu, India. 600113</p>
+      </div>
+      <div class="col-12">
+        <hr class="light">
+        <h5>&copy;www.guvi.com</h5>
+      </div>
+    </div>
+  </div>
+</footer>
+  </body>      
+    </html>
